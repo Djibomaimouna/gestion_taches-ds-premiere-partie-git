@@ -62,7 +62,8 @@ def main():
         elif choix == "3":
             rechercher_tache(taches)
         elif choix == "0":
-            print("Fermeture du programme. Au revoir !")
+            print("nombre total de tâches enregistrées : ", len(taches))
+            print("fermeture du programme . Au revoir ! ")
         else:
             print("Erreur : option invalide. Veuillez choisir 1, 2, 3 ou 0.")
 
